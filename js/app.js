@@ -14,6 +14,7 @@ function sum(a, b) { //eslint-disable-line
   console.log([sum, message]);
 
   return [sum, message];
+  // let C  = sum(4, 5)
 }
 
 // Here is the test for sum(); uncomment it to run it
@@ -57,6 +58,12 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
+   sum()
+  let message = `The sum of ${a}, ${b} and ${c} is ${sum}.`;
+  let message = `The product of ${a}, ${b} and ${c} is ${product}.`;
+  console.log([product, message]);
+
+  return [product, message];
 
 }
 
